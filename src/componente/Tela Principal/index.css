@@ -1,0 +1,21 @@
+div.all {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input.Login {
+}
+
+input.Password {
+  position: absolute;
+  width: 411.14px;
+  height: 58.73px;
+  left: 770.93px;
+  top: 478.91px;
+}
