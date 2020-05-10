@@ -4,7 +4,9 @@ import "./styles.css";
 export default function Register() {
   return (
     <div className="container">
-      <img className="Logo"></img>
+      <section className="secaoLogo">
+        <img className="Logo" src={Logo}></img>
+      </section>
       <form className="formulario">
         <input type="text" placeholder="Nome" />
         <input type="text" placeholder="Email" />
