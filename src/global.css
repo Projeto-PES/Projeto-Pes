@@ -8,28 +8,32 @@
 }
 
 body {
-  font: 400 16px Roboto, sans-serif;
+  font: 400 1em Roboto, sans-serif;
   background: #fffafa;
   -webkit-font-smoothing: antialiased;
+}
+
+::placeholder {
+  color: #ccc;
 }
 
 input,
 button,
 textarea {
-  font: 400 16px Roboto, sans-serif;
+  font: 400 1em Roboto, sans-serif;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 1em;
   border-radius: 8px;
-  height: 30px;
+  height: 2em;
   border: 1px solid #c4c4c4;
-  padding-left: 5px;
+  padding-left: 0.5em;
 }
 
 button {
   cursor: pointer;
   background-color: #87ceeb;
   color: #fffafa;
-  height: 35px;
+  height: 2em;
 }
 
 a:hover {
@@ -47,5 +51,5 @@ div.container {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px;
+  width: 350px;
 }
