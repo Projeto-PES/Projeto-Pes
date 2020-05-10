@@ -1,6 +1,6 @@
-import React from "./node_modules/react";
+import React from "react";
 import "./styles.css";
 
-export default function Main(){
-    return <h1>Qualquer Coisa</h1>
+export default function Main() {
+  return <h1>Qualquer Coisa</h1>;
 }

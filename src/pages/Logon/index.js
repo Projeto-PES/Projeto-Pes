@@ -7,10 +7,10 @@ export default function Logon() {
       <img className="Logo"></img>
       <form className="fomulario">
         <input type="text" placeholder="Email ou id" />
-        <input type="text" placeholder="Senha" />
+        <input type="password" placeholder="Senha" />
         <a>Nao tenho cadastro</a>
         <a>Esqueci minha senha</a>
-        <button onClick="">Entrar</button>
+        <button onClick="/main">Entrar</button>
       </form>
     </div>
   );
