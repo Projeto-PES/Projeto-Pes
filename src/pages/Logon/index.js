@@ -13,7 +13,7 @@ export default function Logon() {
         <input type="password" placeholder="Senha" />
         <div className="linksForm">
           <a className="naoTenhoCadastro" href="#">
-            Nao tenho cadastro
+            Não tenho cadastro
           </a>
           <a className="esqueciMinhaSenha" href="#">
             Esqueci minha senha

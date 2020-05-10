@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Logo from "../../assets/Logo.png";
 
 export default function Register() {
   return (
