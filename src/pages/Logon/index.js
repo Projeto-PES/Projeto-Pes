@@ -19,7 +19,7 @@ export default function Logon() {
             Esqueci minha senha
           </a>
         </div>
-        <button onClick="/main">Entrar</button>
+        <button onClick="">Entrar</button>
       </form>
     </div>
   );
