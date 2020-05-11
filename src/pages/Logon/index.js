@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Logo from "../../assets/Logo.png";
+import { Link } from "react-router-dom";
 
 export default function Logon() {
   return (
@@ -12,12 +13,12 @@ export default function Logon() {
         <input type="text" placeholder="Email ou id" />
         <input type="password" placeholder="Senha" />
         <div className="linksForm">
-          <a className="naoTenhoCadastro" href="#">
+          <Link className="naoTenhoCadastro" to="/Register">
             Não tenho cadastro
-          </a>
-          <a className="esqueciMinhaSenha" href="#">
+          </Link>
+          <Link className="esqueciMinhaSenha" to="/RestorePass">
             Esqueci minha senha
-          </a>
+          </Link>
         </div>
         <button onClick="">Entrar</button>
       </form>

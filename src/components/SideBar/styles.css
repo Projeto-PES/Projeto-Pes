@@ -11,10 +11,14 @@
 .menuList{
     margin-left: 2em;
     list-style: none;
-    color:#fffafa;
 }
 
-.menuList a:hover{
+.link{
+    color:#fffafa;
+    text-decoration: none;
+}
+
+.link:hover{
     color:#bebebe;
 }
 

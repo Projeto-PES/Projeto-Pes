@@ -17,15 +17,3 @@
     justify-content: center;
     width:100%;
 }
-
-.sala{
-    background-color: #87ceeb;
-    width:150px;
-    height: 150px;
-    margin: 0 30px;
-    border-radius: 10px;
-}
-
-.sala:hover{
-   opacity:0.8;
-}

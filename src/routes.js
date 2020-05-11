@@ -6,6 +6,7 @@ import Register from "./pages/Register";
 import NewPass from "./pages/NewPass";
 import RestorePass from "./pages/RestorePass";
 import NewRoom from "./pages/NewRoom";
+import Profile from "./pages/Profile";
 
 export default function Routes() {
   return (
@@ -17,6 +18,7 @@ export default function Routes() {
         <Route path="/NewPass" component={NewPass} />
         <Route path="/RestorePass" component={RestorePass} />
         <Route path="/NewRoom" component={NewRoom} />
+        <Route path="/Profile" component={Profile} />
       </Switch>
     </BrowserRouter>
   );

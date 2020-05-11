@@ -1,0 +1,16 @@
+.sala{
+    background-color: #87ceeb;
+    width:150px;
+    height: 150px;
+    margin: 0 30px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#909090;
+}
+
+.sala:hover{
+   opacity:0.8;
+}

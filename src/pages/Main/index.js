@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
-import SideBar from "../SideBar/index.js"
+import SideBar from "../../components/SideBar/index.js";
+import Room from "../../components/Room/index";
 
 export default function Main() {
   return (
@@ -10,9 +11,9 @@ export default function Main() {
         <div></div>
         <h1>SALAS OBSERVADAS</h1>
         <div className="salas">
-          <div className="sala"></div>
-          <div className="sala"></div>
-          <div className="sala"></div>
+          <Room />
+          <Room />
+          <Room />
         </div>
         <div></div>
         <div></div>

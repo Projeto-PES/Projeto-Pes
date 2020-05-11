@@ -42,7 +42,7 @@ button {
   height: 2em;
 }
 
-a:hover {
+.link:hover {
   cursor: pointer;
   opacity: 0.8;
 }
