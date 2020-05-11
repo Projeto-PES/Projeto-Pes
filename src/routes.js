@@ -5,6 +5,7 @@ import Main from "./pages/Main";
 import Register from "./pages/Register";
 import NewPass from "./pages/NewPass";
 import RestorePass from "./pages/RestorePass";
+import NewRoom from "./pages/NewRoom";
 
 export default function Routes() {
   return (
@@ -15,6 +16,7 @@ export default function Routes() {
         <Route path="/Register" component={Register} />
         <Route path="/NewPass" component={NewPass} />
         <Route path="/RestorePass" component={RestorePass} />
+        <Route path="/NewRoom" component={NewRoom} />
       </Switch>
     </BrowserRouter>
   );
