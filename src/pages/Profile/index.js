@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import SideBar from "../SideBar/index.js";
+import SideBar from "../../components/SideBar/index";
 import { GoPerson } from "react-icons/go";
 
 export default function Profile() {

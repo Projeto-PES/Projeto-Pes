@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import SideBar from "../SideBar/index.js"
+import SideBar from "../../components/SideBar/index";
 
 export default function NewRoom() {
     return (
