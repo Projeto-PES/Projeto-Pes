@@ -12,6 +12,7 @@ export default function NewRoom() {
                 <form className="formulario">
                     <input type="text" placeholder="Nome da sala" />
                     <input type="text" placeholder="Id do aparelho" />
+                    <input type="number" placeholder="Temperatura Ideal" />
                     <button onClick="">Cadastrar</button>
                 </form>
                 <div></div>

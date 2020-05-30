@@ -9,6 +9,7 @@ import { FaTrash } from "react-icons/fa";
 export default function Room() {
     return (
         <Popup
+            className="popup"
             trigger={
                 <div className="sala">
                     <h2>Sala 1</h2>
@@ -25,7 +26,7 @@ export default function Room() {
                     <h1>Sala 1</h1>
                 </div>
                 <h2 className="numero">LAB01 - a1s5b1w53</h2>
-                <div></div>
+                <div className="tempIdeal"><h3>Temperatura Ideal: <span>20º</span></h3></div>
                 <div className="temperatura">
                     <div className="boxSeta"><BsChevronLeft size={35} color="#87ceeb" /></div>
                     <div className="boxTemperatura"><p>20º</p></div>
