@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import api from "../../services/api";
 import "./styles.css";
 import Logo from "../../assets/Logo.png";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 export default function Register() {
   const [name, setName] = useState("");

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./styles.css";
 import Popup from "reactjs-popup";
 import { WiThermometer } from "react-icons/wi";
-import { RiPencilLine, RiCommandLine } from "react-icons/ri";
+import { RiPencilLine } from "react-icons/ri";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import { FaTrash } from "react-icons/fa";
 
@@ -10,6 +10,7 @@ import api from "../../services/api";
 
 export default function Room() {
   const [room, setRoom] = useState([]);
+  const [id, setId] = useState();
 
   useEffect(() => {
     api.get("getRoom").then((res) => {
@@ -59,7 +60,7 @@ export default function Room() {
           <button>
             Alterar <RiPencilLine size={15} />
           </button>
-          <button>
+          <button onClick={handleDelete}>
             Excluir <FaTrash size={15} />
           </button>
         </div>

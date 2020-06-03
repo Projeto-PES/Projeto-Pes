@@ -1,19 +1,156 @@
-.main{
-    display:flex;
-    flex-direction: row;
+.main {
+  display: flex;
+  flex-direction: row;
 }
 
-.content{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    width:100%;
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
-.salas{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    width:100%;
+.salas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.sala {
+  background-color: #87ceeb;
+  width: 150px;
+  height: 150px;
+  margin: 0 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #909090;
+}
+
+.sala:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.modal {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+h2,
+h3 {
+  font-weight: 100;
+  color: #404040;
+}
+
+.numero {
+  text-align: center;
+}
+
+.temperatura {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.boxTemperatura {
+  border: 1px solid #87ceeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.tempIdeal {
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.boxSeta {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 0 none;
+  margin: 0;
+}
+
+.boxSeta:active {
+  background-color: #e0eef3;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.buttons button {
+  width: 30%;
+  margin-left: 10px;
+  padding: 0;
+}
+
+@media screen and (min-width: 600px) and (max-width: 840px) {
+  .sala {
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+  }
+
+  h1 {
+    font-size: 2.1rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .boxTemperatura {
+    width: 130px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .tempIdeal {
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  .buttons button {
+    width: 35%;
+    margin-left: 10px;
+    padding: 0;
+    font-size: 0.9rem;
+  }
+
+  .modal {
+    height: 300px;
+  }
 }
